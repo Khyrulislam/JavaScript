@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none !important;
+    transition: 0.5s;
+    color: #fff !important;
+}
+a:hover {
+    color: var(0);
+}
+#top-bar{
+    background-color: #282828;
+    border-top: 2px solid red;
+    border-bottom: 5px solid orange;
+
+}
+.top-header{
+    padding: 8px;
+}
+.info{
+    width: 70%;
+    gap: 20px;
+}
+.mail span{
+    padding: 0 10px;
+}
+.number span{
+    padding: 0 10px;
+}
+.social-link{
+    padding: 0 10px;
+}
